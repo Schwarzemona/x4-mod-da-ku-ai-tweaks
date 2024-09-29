@@ -7,120 +7,120 @@
 				<set_value name="global.$DATweaks" exact="table[]"/>
 				<!-- MoveGeneric -->
 				<set_value name="global.$DATweaks.$MoveGeneric" exact="table[]"/>
-				<set_value name="global.$DATweaks.$MoveGeneric.$ObjectChangedSector" exact="false"/>
-				<set_value name="global.$DATweaks.$MoveGeneric.$ForceTravel" exact="false"/>
-				<set_value name="global.$DATweaks.$MoveGeneric.$SmallerRadius" exact="false"/>
+				<set_value name="global.$DATweaks.$MoveGeneric.$ObjectChangedSector" exact="true"/>
+				<set_value name="global.$DATweaks.$MoveGeneric.$ForceTravel" exact="true"/>
+				<set_value name="global.$DATweaks.$MoveGeneric.$SmallerRadius" exact="true"/>
 				<!-- Engineer -->
 				<set_value name="global.$DATweaks.$EngineerAI" exact="table[]"/>
-				<set_value name="global.$DATweaks.$EngineerAI.$HullDamageLimitTweak" exact="false"/>
-				<set_value name="global.$DATweaks.$EngineerAI.$InternalRepairDrones" exact="false"/>
+				<set_value name="global.$DATweaks.$EngineerAI.$HullDamageLimitTweak" exact="true"/>
+				<set_value name="global.$DATweaks.$EngineerAI.$InternalRepairDrones" exact="true"/>
 				<!-- InterruptAttacked -->
 				<set_value name="global.$DATweaks.$InterruptAttacked" exact="table[]"/>
-				<set_value name="global.$DATweaks.$InterruptAttacked.$DecideToFlee" exact="false"/>
-				<set_value name="global.$DATweaks.$InterruptAttacked.$AllowMilitaryFlee" exact="false"/>
+				<set_value name="global.$DATweaks.$InterruptAttacked.$DecideToFlee" exact="true"/>
+				<set_value name="global.$DATweaks.$InterruptAttacked.$AllowMilitaryFlee" exact="true"/>
 				<set_value name="global.$DATweaks.$InterruptAttacked.$AllowCivilianFleeHPPercent" exact="150"/>
-				<set_value name="global.$DATweaks.$InterruptAttacked.$AllowMilitaryFleeHPPercent" exact="50"/>
-				<set_value name="global.$DATweaks.$InterruptAttacked.$DecideToFight" exact="false"/>
-				<set_value name="global.$DATweaks.$InterruptAttacked.$AllowCivilianFight" exact="false"/>
-				<set_value name="global.$DATweaks.$InterruptAttacked.$PolicePlayFavorites" exact="false"/>
+				<set_value name="global.$DATweaks.$InterruptAttacked.$AllowMilitaryFleeHPPercent" exact="75"/>
+				<set_value name="global.$DATweaks.$InterruptAttacked.$DecideToFight" exact="true"/>
+				<set_value name="global.$DATweaks.$InterruptAttacked.$AllowCivilianFight" exact="true"/>
+				<set_value name="global.$DATweaks.$InterruptAttacked.$PolicePlayFavorites" exact="true"/>
 				<!-- MiningEfficiency -->
 				<set_value name="global.$DATweaks.$MiningEfficiency" exact="table[]"/>
-				<set_value name="global.$DATweaks.$MiningEfficiency.$SectorWideProbe" exact="false"/>
+				<set_value name="global.$DATweaks.$MiningEfficiency.$SectorWideProbe" exact="true"/>
 				<!-- RespondInspected -->
 				<set_value name="global.$DATweaks.$RespondInspected" exact="table[]"/>
-				<set_value name="global.$DATweaks.$RespondInspected.$ComplyWhenLawAbiding" exact="false"/>
+				<set_value name="global.$DATweaks.$RespondInspected.$ComplyWhenLawAbiding" exact="true"/>
 				<!-- MoveCollectSmallship -->
 				<set_value name="global.$DATweaks.$MoveCollectSmallship" exact="table[]"/>
-				<set_value name="global.$DATweaks.$MoveCollectSmallship.$UseTravelMore" exact="false"/>
-				<set_value name="global.$DATweaks.$MoveCollectSmallship.$UseMagnet" exact="false"/>
+				<set_value name="global.$DATweaks.$MoveCollectSmallship.$UseTravelMore" exact="true"/>
+				<set_value name="global.$DATweaks.$MoveCollectSmallship.$UseMagnet" exact="true"/>
 				<!-- MoveSeekEnemies -->
 				<set_value name="global.$DATweaks.$MoveSeekEnemies" exact="table[]"/>
-				<set_value name="global.$DATweaks.$MoveSeekEnemies.$PoliceResponse" exact="false"/>
-				<set_value name="global.$DATweaks.$MoveSeekEnemies.$DistressCallResponse" exact="false"/>
-				<set_value name="global.$DATweaks.$MoveSeekEnemies.$RemoveResponseSkillCheck" exact="false"/>
+				<set_value name="global.$DATweaks.$MoveSeekEnemies.$PoliceResponse" exact="true"/>
+				<set_value name="global.$DATweaks.$MoveSeekEnemies.$DistressCallResponse" exact="true"/>
+				<set_value name="global.$DATweaks.$MoveSeekEnemies.$RemoveResponseSkillCheck" exact="true"/>
 				<!-- OrderBuildDeploy -->
 				<set_value name="global.$DATweaks.$OrderBuildDeploy" exact="table[]"/>
-				<set_value name="global.$DATweaks.$OrderBuildDeploy.$PayMe" exact="false"/>
-				<set_value name="global.$DATweaks.$OrderBuildDeploy.$StopLosingDrones" exact="false"/>
+				<set_value name="global.$DATweaks.$OrderBuildDeploy.$PayMe" exact="true"/>
+				<set_value name="global.$DATweaks.$OrderBuildDeploy.$StopLosingDrones" exact="true"/>
 				<!-- OrderBuildFindTask -->
 				<set_value name="global.$DATweaks.$OrderBuildFindTask" exact="table[]"/>
-				<set_value name="global.$DATweaks.$OrderBuildFindTask.$BuildAIStations" exact="false"/>
+				<set_value name="global.$DATweaks.$OrderBuildFindTask.$BuildAIStations" exact="true"/>
 				<!-- OrderMiningRoutine -->
 				<set_value name="global.$DATweaks.$OrderMiningRoutine" exact="table[]"/>
-				<set_value name="global.$DATweaks.$OrderMiningRoutine.$RespectMaxRange" exact="false"/>
-				<set_value name="global.$DATweaks.$OrderMiningRoutine.$CheckForDemand" exact="false"/>
-				<set_value name="global.$DATweaks.$OrderMiningRoutine.$CheckActualDemand" exact="false"/>
-				<set_value name="global.$DATweaks.$OrderMiningRoutine.$DropUnsellable" exact="false"/>
+				<set_value name="global.$DATweaks.$OrderMiningRoutine.$RespectMaxRange" exact="true"/>
+				<set_value name="global.$DATweaks.$OrderMiningRoutine.$CheckForDemand" exact="true"/>
+				<set_value name="global.$DATweaks.$OrderMiningRoutine.$CheckActualDemand" exact="true"/>
+				<set_value name="global.$DATweaks.$OrderMiningRoutine.$DropUnsellable" exact="true"/>
 				<!-- OrderMoveRecon -->
 				<set_value name="global.$DATweaks.$OrderMoveRecon" exact="table[]"/>
-				<set_value name="global.$DATweaks.$OrderMoveRecon.$LongerLegalScans" exact="false"/>
-				<set_value name="global.$DATweaks.$OrderMoveRecon.$AttemptInterceptNotFollow" exact="false"/>
-				<set_value name="global.$DATweaks.$OrderMoveRecon.$FasterPoliceScans" exact="false"/>
-				<set_value name="global.$DATweaks.$OrderMoveRecon.$LessHostilePolice" exact="false"/>
+				<set_value name="global.$DATweaks.$OrderMoveRecon.$LongerLegalScans" exact="true"/>
+				<set_value name="global.$DATweaks.$OrderMoveRecon.$AttemptInterceptNotFollow" exact="true"/>
+				<set_value name="global.$DATweaks.$OrderMoveRecon.$FasterPoliceScans" exact="true"/>
+				<set_value name="global.$DATweaks.$OrderMoveRecon.$LessHostilePolice" exact="true"/>
 				<!-- TradeFindFree -->
 				<set_value name="global.$DATweaks.$TradeFindFree" exact="table[]"/>
-				<set_value name="global.$DATweaks.$TradeFindFree.$BetterSellOfferFiltering" exact="false"/>
-				<set_value name="global.$DATweaks.$TradeFindFree.$BetterBuyOfferFiltering" exact="false"/>
-				<set_value name="global.$DATweaks.$TradeFindFree.$ImprovedBuildStoragePrioritization" exact="false"/>
+				<set_value name="global.$DATweaks.$TradeFindFree.$BetterSellOfferFiltering" exact="true"/>
+				<set_value name="global.$DATweaks.$TradeFindFree.$BetterBuyOfferFiltering" exact="true"/>
+				<set_value name="global.$DATweaks.$TradeFindFree.$ImprovedBuildStoragePrioritization" exact="true"/>
 				<!-- TradeStation -->
 				<set_value name="global.$DATweaks.$TradeStation" exact="table[]"/>
-				<set_value name="global.$DATweaks.$TradeStation.$StopIgnoringReservations" exact="false"/>
-				<set_value name="global.$DATweaks.$TradeStation.$StopBreakingTrades" exact="false"/>
+				<set_value name="global.$DATweaks.$TradeStation.$StopIgnoringReservations" exact="true"/>
+				<set_value name="global.$DATweaks.$TradeStation.$StopBreakingTrades" exact="true"/>
 				<!-- Fight.Attack.Object.Bigtarget -->
 				<set_value name="global.$DATweaks.$FAOBigTarget" exact="table[]"/>
-				<set_value name="global.$DATweaks.$FAOBigTarget.$PlayerBoostDisabled" exact="false"/>
-				<set_value name="global.$DATweaks.$FAOBigTarget.$AIBoostDisabled" exact="false"/>
+				<set_value name="global.$DATweaks.$FAOBigTarget.$PlayerBoostDisabled" exact="true"/>
+				<set_value name="global.$DATweaks.$FAOBigTarget.$AIBoostDisabled" exact="true"/>
 				<!-- Fight.Attack.Object.Fighter -->
 				<set_value name="global.$DATweaks.$FAOFighter" exact="table[]"/>
-				<set_value name="global.$DATweaks.$FAOFighter.$PlayerBoostDisabled" exact="false"/>
-				<set_value name="global.$DATweaks.$FAOFighter.$AIBoostDisabled" exact="false"/>
+				<set_value name="global.$DATweaks.$FAOFighter.$PlayerBoostDisabled" exact="true"/>
+				<set_value name="global.$DATweaks.$FAOFighter.$AIBoostDisabled" exact="true"/>
 				<!-- Move.Attack.Object.Capital -->
 				<set_value name="global.$DATweaks.$MAOCapital" exact="table[]"/>
-				<set_value name="global.$DATweaks.$MAOCapital.$RemoveAISkillCheckAlso" exact="false"/>
-				<set_value name="global.$DATweaks.$MAOCapital.$IgnoreVerticalQuadrants" exact="false"/>
-				<set_value name="global.$DATweaks.$MAOCapital.$EnemyQuadrantTweak" exact="false"/>
-				<set_value name="global.$DATweaks.$MAOCapital.$PlayerBoostDisabled" exact="false"/>
-				<set_value name="global.$DATweaks.$MAOCapital.$AIBoostDisabled" exact="false"/>
-				<set_value name="global.$DATweaks.$MAOCapital.$TravelDriveTweak" exact="false"/>
+				<set_value name="global.$DATweaks.$MAOCapital.$RemoveAISkillCheckAlso" exact="true"/>
+				<set_value name="global.$DATweaks.$MAOCapital.$IgnoreVerticalQuadrants" exact="true"/>
+				<set_value name="global.$DATweaks.$MAOCapital.$EnemyQuadrantTweak" exact="true"/>
+				<set_value name="global.$DATweaks.$MAOCapital.$PlayerBoostDisabled" exact="true"/>
+				<set_value name="global.$DATweaks.$MAOCapital.$AIBoostDisabled" exact="true"/>
+				<set_value name="global.$DATweaks.$MAOCapital.$TravelDriveTweak" exact="true"/>
 				<!-- Move.Evade -->
 				<set_value name="global.$DATweaks.$MoveEvade" exact="table[]"/>
-				<set_value name="global.$DATweaks.$MoveEvade.$PlayerBoostDisabled" exact="false"/>
-				<set_value name="global.$DATweaks.$MoveEvade.$AIBoostDisabled" exact="false"/>
+				<set_value name="global.$DATweaks.$MoveEvade.$PlayerBoostDisabled" exact="true"/>
+				<set_value name="global.$DATweaks.$MoveEvade.$AIBoostDisabled" exact="true"/>
 				<!-- Move.Flee -->
 				<set_value name="global.$DATweaks.$MoveFlee" exact="table[]"/>
-				<set_value name="global.$DATweaks.$MoveFlee.$PlayerBoostDisabled" exact="false"/>
-				<set_value name="global.$DATweaks.$MoveFlee.$AIBoostDisabled" exact="false"/>
-				<set_value name="global.$DATweaks.$MoveFlee.$DropLessCargo" exact="false"/>
+				<set_value name="global.$DATweaks.$MoveFlee.$PlayerBoostDisabled" exact="true"/>
+				<set_value name="global.$DATweaks.$MoveFlee.$AIBoostDisabled" exact="true"/>
+				<set_value name="global.$DATweaks.$MoveFlee.$DropLessCargo" exact="true"/>
 				<!-- Move.Gate -->
 				<set_value name="global.$DATweaks.$MoveGate" exact="table[]"/>
-				<set_value name="global.$DATweaks.$MoveGate.$ForceTravel" exact="false"/>
-				<set_value name="global.$DATweaks.$MoveGate.$PlayerBoostDisabled" exact="false"/>
-				<set_value name="global.$DATweaks.$MoveGate.$AIBoostDisabled" exact="false"/>
-				<set_value name="global.$DATweaks.$MoveGate.$FasterExit" exact="false"/>
+				<set_value name="global.$DATweaks.$MoveGate.$ForceTravel" exact="true"/>
+				<set_value name="global.$DATweaks.$MoveGate.$PlayerBoostDisabled" exact="true"/>
+				<set_value name="global.$DATweaks.$MoveGate.$AIBoostDisabled" exact="true"/>
+				<set_value name="global.$DATweaks.$MoveGate.$FasterExit" exact="true"/>
 				<!-- Order.Fight.Board -->
 				<set_value name="global.$DATweaks.$OrderFightBoard" exact="table[]"/>
-				<set_value name="global.$DATweaks.$OrderFightBoard.$BoostDisabled" exact="false"/>
+				<set_value name="global.$DATweaks.$OrderFightBoard.$BoostDisabled" exact="true"/>
 				<!-- Factiongoal_Hold_Space -->
 				<set_value name="global.$DATweaks.$FGHoldSpace" exact="table[]"/>
-				<set_value name="global.$DATweaks.$FGHoldSpace.$IncreaseSearchRange" exact="false"/>
-				<set_value name="global.$DATweaks.$FGHoldSpace.$LargerShipRangeConsideration" exact="false"/>
-				<set_value name="global.$DATweaks.$FGHoldSpace.$PlaceDefStationsNearGates" exact="false"/>
+				<set_value name="global.$DATweaks.$FGHoldSpace.$IncreaseSearchRange" exact="true"/>
+				<set_value name="global.$DATweaks.$FGHoldSpace.$LargerShipRangeConsideration" exact="true"/>
+				<set_value name="global.$DATweaks.$FGHoldSpace.$PlaceDefStationsNearGates" exact="true"/>
 				<!-- Factiongoal_Invade_Space -->
 				<set_value name="global.$DATweaks.$FGInvadeSpace" exact="table[]"/>
-				<set_value name="global.$DATweaks.$FGInvadeSpace.$IncreaseSearchRange" exact="false"/>
-				<set_value name="global.$DATweaks.$FGInvadeSpace.$AllowMoreOrdering" exact="false"/>
-				<set_value name="global.$DATweaks.$FGInvadeSpace.$AllowOrderingForExpedition" exact="false"/>
+				<set_value name="global.$DATweaks.$FGInvadeSpace.$IncreaseSearchRange" exact="true"/>
+				<set_value name="global.$DATweaks.$FGInvadeSpace.$AllowMoreOrdering" exact="true"/>
+				<set_value name="global.$DATweaks.$FGInvadeSpace.$AllowOrderingForExpedition" exact="true"/>
 				<!-- Job_Helper -->
 				<set_value name="global.$DATweaks.$JobHelper" exact="table[]"/>
-				<set_value name="global.$DATweaks.$JobHelper.$BuildAtClosestOnly" exact="false"/>
-				<set_value name="global.$DATweaks.$JobHelper.$HigherDistanceScaling" exact="false"/>
+				<set_value name="global.$DATweaks.$JobHelper.$BuildAtClosestOnly" exact="true"/>
+				<set_value name="global.$DATweaks.$JobHelper.$HigherDistanceScaling" exact="true"/>
 				<!-- Notifications -->
 				<set_value name="global.$DATweaks.$Notifications" exact="table[]"/>
-				<set_value name="global.$DATweaks.$Notifications.$SectorWideBounty" exact="false"/>
-				<set_value name="global.$DATweaks.$Notifications.$NonDirectSubordinateUnderAttack" exact="false"/>
+				<set_value name="global.$DATweaks.$Notifications.$SectorWideBounty" exact="true"/>
+				<set_value name="global.$DATweaks.$Notifications.$NonDirectSubordinateUnderAttack" exact="true"/>
 				<!-- Conversations -->
 				<set_value name="global.$DATweaks.$Conversations" exact="table[]"/>
-				<set_value name="global.$DATweaks.$Conversations.$RemoteInventoryTransfer" exact="false"/>
+				<set_value name="global.$DATweaks.$Conversations.$RemoteInventoryTransfer" exact="true"/>
 				<!-- Text Colors -->
 				<set_value name="$TextGreen" exact="'Color.text_success'"/>
 				<set_value name="$TextRed" exact="'Color.text_failure'"/>
