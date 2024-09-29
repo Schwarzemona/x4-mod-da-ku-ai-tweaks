@@ -119,7 +119,7 @@
 		<t id="6000">Kuda: DeadAir調整オプション</t>
 		<t id="6011">move.generic script - 船は、移動中のオブジェクトがセクターを変更した場合、そのオブジェクトに対する移動を再計算します。</t>
 		<t id="6012">move.generic script - 船は、通常であれば低速で移動する場面でも、強制的にトラベルドライブを使用します。</t>
-		<t id="6013">move.generic script - 船は、（非常に大きなものでない限り）目的地から10km以内ではなく、より近づこうとします。</t>
+		<t id="6013">move.generic script - 船は、目的地から10km以内ではなく、より近づこうとします(Unless they are really really big)。</t>
 		<t id="6021">engineer.ai script - 修理できるオブジェクトは、スキルに制限されることがなくなり、最終的には100%まで修理できます。</t>
 		<t id="6022">engineer.ai script - 修理できるオブジェクトはドローンを内部に保持し、計算は発進したドローンではなく、修理用ドローンの総数に基づいて調整されます。</t>
 		<t id="6031">interrupt.attacked script - 逃走の計算を調整します。民間船は、船体の%とシールドの%を合わせた数値が150%未満になると逃走します。</t>
@@ -134,7 +134,7 @@
 		<t id="6061">move.collect.ship.smallship script - 5km以上離れた物体を収集する小型船は、より頻繁にトラベルドライブを使用します。</t>
 		<t id="6062">move.collect.ship.smallship script - 5km以内のウェアを収集する小型船は、インスタントコンテナマグネットを使用します。</t>
 		<t id="6071">move.seekenemies script - 警察はセクター内のトラブル連絡に対してより確実に応答します。また、船が警察の命令を模倣するサポートも実装されます。</t>
-		<t id="6072">move.seekenemies script - 警察と巡視艦はセクター内の救難連絡に対してより確実に応答します（巡視艦は実際に応答します。バニラとは異なります）。また、船が巡視/警察の命令を模倣するサポートも実装されます。</t>
+		<t id="6072">move.seekenemies script - 警察と巡視艦はセクター内の救難連絡に対してより確実に応答します(Yes, patrol ships will actually respond unlike vanilla)。また、船が巡視/警察の命令を模倣するサポートも実装されます。</t>
 		<t id="6073">move.seekenemies script - レーダーの範囲を超えたトラブルや救難連絡に応答する船に対するスキルチェックを削除します。</t>
 		<t id="6081">order.build.deploy script - プレイヤー所有の建設船のための工賃を設定します。船は作業1時間ごとに1,000,000クレジットを稼ぎ、最低500,000クレジットです。</t>
 		<t id="6082">order.build.deploy script - 資源を建築保管庫で1時間以上待った後に新しいタスクに移動する船がドローンを置き去りにするバグを修正します。</t>
