@@ -28,28 +28,28 @@
 						<set_value name="global.$kAAIT_Data.$debugChance" exact="0" />
 						<!-- configs: -->
 						<!-- kAAIT_ApplyCustomBehaviourOrNot, kAAIT_MoveAroundOrNot -->
-						<set_value name="global.$kAAIT_Data.$xssm_isAvoidHighRisk" exact="true" />
+						<set_value name="global.$kAAIT_Data.$xssm_isAvoidHighRisk" exact="false" />
 						<set_value name="global.$kAAIT_Data.$xssm_isAvoidHighRisk_allFactions" exact="false" />
 						<!-- kAAIT_MoveAroundOrNot -->
-						<set_value name="global.$kAAIT_Data.$lxl_isAvoidHighRisk_vShip" exact="true" />
+						<set_value name="global.$kAAIT_Data.$lxl_isAvoidHighRisk_vShip" exact="false" />
 						<set_value name="global.$kAAIT_Data.$lxl_isAvoidHighRisk_vShip_allFactions" exact="false" />
-						<set_value name="global.$kAAIT_Data.$lxl_isAvoidHighRisk_vStation" exact="true" />
+						<set_value name="global.$kAAIT_Data.$lxl_isAvoidHighRisk_vStation" exact="false" />
 						<set_value name="global.$kAAIT_Data.$lxl_isAvoidHighRisk_vStation_allFactions" exact="false" />
 						<!-- kAAIT_LXL_StepForwardOrMoveOutOfRange -->
 						<set_value name="global.$kAAIT_Data.$lxl_moveToEngagePosition_vShip" exact="true" />
 						<set_value name="global.$kAAIT_Data.$lxl_isStepForward_vShip" exact="false" />
 						<set_value name="global.$kAAIT_Data.$lxl_isStepForward_vShip_allFactions" exact="false" />
-						<set_value name="global.$kAAIT_Data.$lxl_isMoveOutOfRange_vShip" exact="true" />
+						<set_value name="global.$kAAIT_Data.$lxl_isMoveOutOfRange_vShip" exact="false" />
 						<set_value name="global.$kAAIT_Data.$lxl_isMoveOutOfRange_vShip_allFactions" exact="false" />
-						<set_value name="global.$kAAIT_Data.$lxl_isStepForward_vStation" exact="true" />
+						<set_value name="global.$kAAIT_Data.$lxl_isStepForward_vStation" exact="false" />
 						<set_value name="global.$kAAIT_Data.$lxl_isStepForward_vStation_allFactions" exact="false" />
-						<set_value name="global.$kAAIT_Data.$lxl_isMoveOutOfRange_vStation" exact="true" />
+						<set_value name="global.$kAAIT_Data.$lxl_isMoveOutOfRange_vStation" exact="false" />
 						<set_value name="global.$kAAIT_Data.$lxl_isMoveOutOfRange_vStation_allFactions" exact="false" />
 						<!-- xs, s, and m -->
-						<set_value name="global.$kAAIT_Data.$xss_outnumberVShips" exact="25" />
-						<set_value name="global.$kAAIT_Data.$xss_outnumberVStations" exact="75" />
+						<set_value name="global.$kAAIT_Data.$xss_outnumberVShips" exact="100" />
+						<set_value name="global.$kAAIT_Data.$xss_outnumberVStations" exact="20" />
 						<set_value name="global.$kAAIT_Data.$m_outnumberVShips" exact="50" />
-						<set_value name="global.$kAAIT_Data.$m_outnumberVStations" exact="75" />
+						<set_value name="global.$kAAIT_Data.$m_outnumberVStations" exact="10" />
 						<!-- other options -->
 						<set_value name="global.$kAAIT_Data.$isUseNPCSkills" exact="true" />
 						<set_value name="global.$kAAIT_Data.$isCarriersAttackLikeDestroyers" exact="false" />

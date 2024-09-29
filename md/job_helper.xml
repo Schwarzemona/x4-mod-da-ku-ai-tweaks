@@ -140,7 +140,7 @@
     <do_if value="true">
       <do_if value="$DATShipyards? and $DATDebugString? and (not $DistanceOrder.count)">
         <set_value name="$DATSkipCount" exact="1" operation="add"/>
-        <debug_text text="$DATDebugString" context="false" filter="scripts"/>
+        <debug_text text="$DATDebugString" context="false" filter="scripts" chance="$DebugChance"/>
       </do_if>
       <remove_value name="$DATDebugString"/>
     </do_if>
@@ -168,7 +168,7 @@
   </add>
   <add sel="/mdscript/cues/library[@name='Manager']/cues/cue[@name='Process_Ships']/actions/do_if[@value='$Shipyards.count']">
     <do_if value="$DATSkipCount? and $DATBuildCount? and ($DATSkipCount gt 0)">
-      <debug_text text="'MOD: DAT -- End Result -- $Faction: %s -- Skipped: %s -- Ordered: %s -- LeftToProcess: %s'.[$Faction,$DATSkipCount,$DATBuildCount,@$ShipsToBuild.count - $DATBuildCount]" context="false" filter="scripts"/>
+      <debug_text text="'MOD: DAT -- End Result -- $Faction: %s -- Skipped: %s -- Ordered: %s -- LeftToProcess: %s'.[$Faction,$DATSkipCount,$DATBuildCount,@$ShipsToBuild.count - $DATBuildCount]" context="false" filter="scripts" chance="$DebugChance"/>
     </do_if>
   </add>
 </diff>
