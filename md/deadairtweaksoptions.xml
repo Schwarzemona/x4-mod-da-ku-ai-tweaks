@@ -28,7 +28,7 @@
 				<set_value name="global.$DATweaks.$MiningEfficiency.$SectorWideProbe" exact="false"/>
 				<!-- RespondInspected -->
 				<set_value name="global.$DATweaks.$RespondInspected" exact="table[]"/>
-				<set_value name="global.$DATweaks.$RespondInspected.$ComplyWhenLawAbiding" exact="false"/>
+				<set_value name="global.$DATweaks.$RespondInspected.$ComplyWhenLawAbiding" exact="true"/>
 				<!-- MoveCollectSmallship -->
 				<set_value name="global.$DATweaks.$MoveCollectSmallship" exact="table[]"/>
 				<set_value name="global.$DATweaks.$MoveCollectSmallship.$UseTravelMore" exact="true"/>
@@ -61,7 +61,7 @@
 				<set_value name="global.$DATweaks.$TradeFindFree" exact="table[]"/>
 				<set_value name="global.$DATweaks.$TradeFindFree.$BetterSellOfferFiltering" exact="true"/>
 				<set_value name="global.$DATweaks.$TradeFindFree.$BetterBuyOfferFiltering" exact="true"/>
-				<set_value name="global.$DATweaks.$TradeFindFree.$ImprovedBuildStoragePrioritization" exact="false"/>
+				<set_value name="global.$DATweaks.$TradeFindFree.$ImprovedBuildStoragePrioritization" exact="true"/>
 				<set_value name="global.$DATweaks.$TradeFindFree.$HigherMinVolume" exact="true"/>
 				<!-- TradeStation -->
 				<set_value name="global.$DATweaks.$TradeStation" exact="table[]"/>
@@ -120,7 +120,7 @@
 				<set_value name="global.$DATweaks.$Notifications" exact="table[]"/>
 				<set_value name="global.$DATweaks.$Notifications.$SectorWideBounty" exact="false"/>
 				<set_value name="global.$DATweaks.$Notifications.$NonDirectSubordinateUnderAttack" exact="false"/>
-				<set_value name="global.$DATweaks.$Notifications.$SubordinateBounties" exact="false"/>
+				<set_value name="global.$DATweaks.$Notifications.$SubordinateBounties" exact="true"/>
 				<!-- Conversations -->
 				<set_value name="global.$DATweaks.$Conversations" exact="table[]"/>
 				<set_value name="global.$DATweaks.$Conversations.$RemoteInventoryTransfer" exact="false"/>
