@@ -50,7 +50,7 @@
 				<set_value name="global.$DATweaks.$OrderMiningRoutine.$RespectMaxRange" exact="false"/>
 				<set_value name="global.$DATweaks.$OrderMiningRoutine.$CheckForDemand" exact="true"/>
 				<set_value name="global.$DATweaks.$OrderMiningRoutine.$CheckActualDemand" exact="true"/>
-				<set_value name="global.$DATweaks.$OrderMiningRoutine.$DropUnsellable" exact="true"/>
+				<set_value name="global.$DATweaks.$OrderMiningRoutine.$DropUnsellable" exact="false"/>
 				<!-- OrderMoveRecon -->
 				<set_value name="global.$DATweaks.$OrderMoveRecon" exact="table[]"/>
 				<set_value name="global.$DATweaks.$OrderMoveRecon.$LongerLegalScans" exact="false"/>
